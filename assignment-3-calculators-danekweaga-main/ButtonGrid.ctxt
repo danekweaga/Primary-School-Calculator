@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ButtonGrid
+comment0.text=\r\n\ @title\ The\ ButtonGrid\ class.\r\n\ The\ ButtonGrid\ class\ manages\ the\ layout\ and\ functionality\ of\ the\ calculator\ buttons.\r\n\r\n\ @author\ \ Chukwunonso\ Daniel\ Ekweaga\r\n\ @version\ (Final\ Version)\r\n\ @student\ ID\ \:\ 3781089\r\n
+comment1.params=display\ gradeRadioButtons
+comment1.target=ButtonGrid(Screen,\ GradeSelector)
+comment1.text=\r\n\ 2\ Parameter\ Constructor(s)\ for\ the\ ButtonGrid\ class.\r\n\r\n\ @param\ display\ The\ display\ component\ for\ the\ calculator.\r\n\ @param\ gradeRadioButtons\ The\ grade\ selector\ component\ for\ the\ calculator.\r\n
+comment2.params=
+comment2.target=void\ initializeButtons()
+comment2.text=\r\n\ Method\ to\ initialize\ the\ buttons\ and\ adds\ them\ to\ the\ grid.\r\n
+comment3.params=label
+comment3.target=javafx.scene.control.Button\ createButton(java.lang.String)
+comment3.text=\r\n\ Method\ to\ create\ a\ button\ with\ the\ specified\ label\ and\ sets\ up\ its\ event\ handlers.\r\n\r\n\ @param\ label\ The\ label\ for\ the\ button.\r\n\ @return\ The\ created\ button.\r\n
+comment4.params=
+comment4.target=javafx.scene.layout.GridPane\ getButtonGrid()
+comment4.text=\r\n\ Accessor\ method\ that\ returns\ the\ button\ grid\ containing\ all\ the\ calculator\ buttons.\r\n\r\n\ @return\ The\ button\ grid.\r\n
+numComments=5

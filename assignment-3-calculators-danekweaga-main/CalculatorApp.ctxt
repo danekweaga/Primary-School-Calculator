@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=CalculatorApp
+comment0.text=\r\n\ @title\ The\ CalculatorApp\ Class\r\n\ The\ CalculatorApp\ class\ is\ responsible\ for\ creating\ and\ managing\ the\ user\ interface\ of\ the\ calculator.\r\n\ @author\ Chukwunonso\ Daniel\ Ekweaga\r\n\ @version\ (Final\ Version)\r\n\ @studentID\ 3781089\r\n
+comment1.params=myStage
+comment1.target=void\ start(javafx.stage.Stage)
+comment1.text=\r\n\ Method\ that\ creates\ the\ user\ interface\ for\ the\ calculator.\r\n
+numComments=2

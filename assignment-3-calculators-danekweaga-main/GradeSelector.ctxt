@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=GradeSelector
+comment0.text=\r\n\ @title\ The\ GradeSelector\ Class\r\n\ The\ GradeSelector\ class\ manages\ the\ grade\ selection\ radio\ buttons\ for\ the\ calculator.\r\n\r\n\ @author\ Chukwunonso\ Daniel\ Ekweaga\r\n\ @version\ (Final\ Version)\r\n\ @studentID\ 3781089\r\n
+comment1.params=
+comment1.target=GradeSelector()
+comment1.text=\r\n\ Default\ Constructor\ for\ the\ GradeSelector\ class.\r\n\ Initializes\ the\ grade\ selector\ and\ creates\ the\ grade\ grid.\r\n
+comment2.params=
+comment2.target=void\ initializeGradeSelector()
+comment2.text=\r\n\ Method\ to\ initialize\ the\ radio\ buttons\ and\ toggle\ group.\r\n
+comment3.params=
+comment3.target=void\ createGradeGrid()
+comment3.text=\r\n\ Method\ to\ create\ the\ grid\ layout\ for\ the\ grade\ selection\ radio\ buttons.\r\n
+comment4.params=
+comment4.target=javafx.scene.layout.GridPane\ getGradeGrid()
+comment4.text=\r\n\ Returns\ the\ grade\ grid\ containing\ the\ radio\ buttons.\r\n\r\n\ @return\ The\ grade\ grid.\r\n
+comment5.params=
+comment5.target=boolean\ isGrade4Selected()
+comment5.text=\r\n\ Checks\ if\ Grade\ 4\ is\ selected.\r\n\r\n\ @return\ True\ if\ Grade\ 4\ is\ selected,\ false\ otherwise.\r\n
+comment6.params=
+comment6.target=boolean\ isGrade5Selected()
+comment6.text=\r\n\ Checks\ if\ Grade\ 5\ is\ selected.\r\n\r\n\ @return\ True\ if\ Grade\ 5\ is\ selected,\ false\ otherwise.\r\n
+comment7.params=
+comment7.target=boolean\ isGrade6Selected()
+comment7.text=\r\n\ Checks\ if\ Grade\ 6\ is\ selected.\r\n\r\n\ @return\ True\ if\ Grade\ 6\ is\ selected,\ false\ otherwise.\r\n
+numComments=8

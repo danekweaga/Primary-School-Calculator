@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=CalculatorLogic
+comment0.text=\r\n\ @title\ The\ CalculatorLogic\ class\r\n\ The\ CalculatorLogic\ class\ provides\ the\ logic\ for\ the\ mathematical\ operations\r\n\ \r\n\ @author\ \ Chukwunonso\ Daniel\ Ekweaga\r\n\ @version\ (Final\ Version)\r\n\ @student\ ID\ \:\ 3781089\r\n
+comment1.params=equation\ isGrade4\ isGrade5\ isGrade6
+comment1.target=java.lang.String\ mathOP(java.lang.String,\ boolean,\ boolean,\ boolean)
+comment1.text=\r\n\ Method\ that\ performs\ the\ mathematical\ operation\ based\ on\ the\ equation\ and\ selected\ grade.\r\n\r\n\ @param\ equation\ The\ equation\ to\ evaluate.\r\n\ @param\ isGrade4\ True\ if\ Grade\ 4\ is\ selected.\r\n\ @param\ isGrade5\ True\ if\ Grade\ 5\ is\ selected.\r\n\ @param\ isGrade6\ True\ if\ Grade\ 6\ is\ selected.\r\n\ @return\ The\ result\ of\ the\ operation\ as\ a\ string\ or\ an\ error\ message\ if\ the\ input\ is\ invalid.\r\n
+numComments=2

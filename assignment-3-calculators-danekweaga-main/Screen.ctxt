@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Screen
+comment0.text=\r\n\ @title\ The\ Screen\ Class\r\n\ The\ Screen\ class\ manages\ the\ display\ fields\ (equation\ and\ result)\ and\ the\ background\ rectangle\r\n\ for\ the\ calculator\ screen.\r\n\r\n\ @author\ Chukwunonso\ Daniel\ Ekweaga\r\n\ @version\ (Final\ Version)\r\n\ @studentID\ 3781089\r\n
+comment1.params=
+comment1.target=Screen()
+comment1.text=\r\n\ Constructor\ for\ the\ Screen\ class.\r\n\ Initializes\ the\ screen\ fields\ and\ creates\ the\ screen\ box.\r\n
+comment2.params=
+comment2.target=void\ initializeScreenFields()
+comment2.text=\r\n\ Method\ to\ initialize\ the\ screen\ fields\ and\ create\ the\ background\ rectangle.\r\n
+comment3.params=
+comment3.target=void\ createScreenBox()
+comment3.text=\r\n\ Method\ to\ create\ the\ screen\ box\ with\ the\ background\ rectangle\ and\ text\ fields.\r\n
+comment4.params=
+comment4.target=javafx.scene.layout.StackPane\ getScreenValue()
+comment4.text=\r\n\ Accessor\ method\ that\ returns\ the\ screen\ container\ containing\ the\ background\ rectangle\ and\ text\ fields.\r\n\r\n\ @return\ The\ screen\ container.\r\n
+comment5.params=
+comment5.target=javafx.scene.control.TextField\ getEquationField()
+comment5.text=\r\n\ Accessor\ method\ that\ returns\ the\ equation\ text\ field.\r\n\r\n\ @return\ The\ equation\ text\ field.\r\n
+comment6.params=
+comment6.target=javafx.scene.control.TextField\ getResultField()
+comment6.text=\r\n\ Accessor\ method\ that\ returns\ the\ result\ text\ field.\r\n\r\n\ @return\ The\ result\ text\ field.\r\n
+numComments=7
