@@ -1,27 +1,69 @@
-# 🧮Primary Math Integer Calculator
-A fun, interactive, and educational Java-based calculator built with a custom GUI to simulate how early grade-school math works. Designed with different modes to match the logic used in Grades 4, 5, and 6 — complete with animations, a custom layout, and strict input handling.
--------
-📋 Features
-🔢 Grade Mode Selector – Switch between Grade 4, 5, and 6 logic using radio buttons.
+# 🧮 Primary Math Grade-Level Calculator
 
-📟 Dual-Line Display – One line shows the input equation, the other shows the result (both right-aligned).
+An interactive, user-friendly JavaFX calculator designed with different math rule sets based on grade level: Grade 4, Grade 5, and Grade 6. Built entirely in Java with a focus on UI design, user experience, and educational logic-based control.
 
-🧮 Number & Operator Buttons – Traditional layout with digits 0–9, +, −, ×, ÷, =, and a clear button.
+---
 
-✳️ Decimal Button – Only active in Grade 6 mode.
+## 📦 Features
 
-⚙️ Strict Input Format – Follows a “one number → operator → one number” rule.
+- 🎓 **Grade Modes**: Switch between Grade 4, 5, and 6 logic using radio buttons.
+- 📟 **Dual-Line Display**: Input equation + result area with a clean, rounded screen.
+- 🔢 **Button Grid**: Fully functional number pad, operators, clear, delete, and off buttons.
+- ➗ **Math Engine**: Rules differ by grade:
+  - Grade 4: Only allows subtraction if a ≥ b and integer-only division with no remainder.
+  - Grade 5: Allows subtraction and returns quotient with remainder.
+  - Grade 6: Returns division as a decimal with 4 decimal places.
+- 🎨 **Custom Logo**: Displays a calculator logo at the top.
+- 🖱️ **Hover & Press Effects**: Interactive animations on all buttons.
 
-❗ Smart Error Handling – Shows clear messages for invalid operations (e.g., divide-by-zero, invalid subtraction, remainder in Grade 4, etc.).
+---
 
+## 📁 Project Structure
 
+| Class             | Responsibility                                                    |
+|------------------|--------------------------------------------------------------------|
+| `CalculatorApp`   | Main application launcher and UI builder                          |
+| `Screen`          | Manages the equation and result text fields + background visuals  |
+| `GradeSelector`   | Controls the toggle between Grade 4, 5, and 6                      |
+| `ButtonGrid`      | Creates and manages all calculator buttons                        |
+| `CalculatorLogic` | Contains the math logic and grade-based rules                     |
 
+---
 
-### 📐 Grade-Specific Math Logic
+## 🧮 Grade-Based Logic
 
-| Grade   | Addition | Subtraction                          | Multiplication | Division                                                   |
-|---------|----------|---------------------------------------|----------------|-------------------------------------------------------------|
-| Grade 4 | Normal   | Only if `a ≥ b`, else error           | Normal         | Only if divisible evenly, else error                        |
-| Grade 5 | Normal   | Normal                                | Normal         | Shows quotient and remainder (e.g., `8 ÷ 3 → 2 R 2`)        |
-| Grade 6 | Normal   | Normal                                | Normal         | Returns decimal (4 decimal places, e.g., `8 ÷ 3 → 2.6667`)  |
+| Grade   | Addition | Subtraction                        | Multiplication | Division                                                   |
+|---------|----------|-------------------------------------|----------------|-------------------------------------------------------------|
+| Grade 4 | Normal   | Only if `a ≥ b`, else error         | Normal         | Only if divisible evenly, else error                        |
+| Grade 5 | Normal   | Normal                              | Normal         | Shows quotient and remainder (e.g., `8 ÷ 3 → 2 R 2`)        |
+| Grade 6 | Normal   | Normal                              | Normal         | Decimal output with 4 decimal places (e.g., `8 ÷ 3 → 2.6667`) |
+
+---
+
+## 🚀 How to Run
+
+1. Make sure you have Java and JavaFX installed.
+2. Compile all `.java` files:
+   ```bash
+   javac *.java
+   ```
+3. Run the app:
+   ```bash
+   java CalculatorApp
+   ```
+
+---
+
+## 📸 Screenshots (optional)
+
+_Add your screenshots or logo previews here._
+
+---
+
+## 👨‍💻 Author
+
+**Chukwunonso Daniel Ekweaga**  
+A Java developer focused on educational apps, UI design, and logic-based interactions.
+
+---
 
