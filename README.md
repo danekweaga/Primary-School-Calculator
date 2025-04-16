@@ -16,7 +16,9 @@ An interactive, user-friendly JavaFX calculator designed with different math rul
 - 🎨 **Custom Logo**: Displays a calculator logo at the top.
 - 🖱️ **Hover & Press Effects**: Interactive animations on all buttons.
 
----
+
+----------------------
+
 
 ## 📁 Project Structure
 
@@ -28,7 +30,9 @@ An interactive, user-friendly JavaFX calculator designed with different math rul
 | `ButtonGrid`      | Creates and manages all calculator buttons                        |
 | `CalculatorLogic` | Contains the math logic and grade-based rules                     |
 
----
+
+----------------------
+
 
 ## 🧮 Grade-Based Logic
 
@@ -38,7 +42,10 @@ An interactive, user-friendly JavaFX calculator designed with different math rul
 | Grade 5 | Normal   | Normal                              | Normal         | Shows quotient and remainder (e.g., `8 ÷ 3 → 2 R 2`)        |
 | Grade 6 | Normal   | Normal                              | Normal         | Decimal output with 4 decimal places (e.g., `8 ÷ 3 → 2.6667`) |
 
----
+
+
+----------------------
+
 
 ## 🚀 How to Run
 
@@ -52,18 +59,23 @@ An interactive, user-friendly JavaFX calculator designed with different math rul
    java CalculatorApp
    ```
 
----
+
+----------------------
+
 
 ## 📸 Screenshots (optional)
 
 _Add your screenshots or logo previews here._
 
----
+
+
+----------------------
+
 
 ## 👨‍💻 Author
 
 **Chukwunonso Daniel Ekweaga**  
 A Java developer focused on educational apps, UI design, and logic-based interactions.
 
----
+
 
