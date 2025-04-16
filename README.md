@@ -49,15 +49,35 @@ An interactive, user-friendly JavaFX calculator designed with different math rul
 
 ## 🚀 How to Run
 
-1. Make sure you have Java and JavaFX installed.
-2. Compile all `.java` files:
-   ```bash
-   javac *.java
-   ```
-3. Run the app:
-   ```bash
-   java CalculatorApp
-   ```
+
+## 🧩 Running the Project in BlueJ
+
+If you're using **BlueJ**, follow these steps to run the calculator:
+
+### ✅ 1. Install BlueJ
+- Download and install from: [https://bluej.org](https://bluej.org)
+
+### ✅ 2. Open the Project
+1. Open BlueJ.
+2. Go to **Project → Open Project...**
+3. Select the folder containing all `.java` files (e.g., `CalculatorApp.java`, `ButtonGrid.java`, etc.)
+
+### ✅ 3. Compile All Classes
+- Click the **“Compile”** button at the top of the BlueJ window.
+- Make sure it shows **"Class compiled – no syntax errors"**.
+
+### ✅ 4. Run the Application
+1. Right-click the `CalculatorApp` class.
+2. Choose `void main(String[] args)`.
+3. Click **“OK”** (leave the input field blank).
+4. Your calculator app will launch!
+
+### ⚠️ If You're Using JavaFX
+If your project uses **JavaFX**, you may need to:
+- Go to **Tools → Preferences → Libraries**
+- Add the path to your JavaFX SDK (e.g., `/path/to/javafx-sdk/lib`)
+- Then in **Project → Project Properties → JavaFX VM options**, add:
+
 
 
 ----------------------
