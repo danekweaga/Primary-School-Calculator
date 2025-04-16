@@ -85,7 +85,7 @@ If your project uses **JavaFX**, you may need to:
 
 ## 📸 Screenshots (optional)
 
-_Add your screenshots or logo previews here._
+![image](https://github.com/user-attachments/assets/ebc829e0-5767-4b8f-a0f9-45645799b469)
 
 
 
