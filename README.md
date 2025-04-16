@@ -14,12 +14,14 @@ A fun, interactive, and educational Java-based calculator built with a custom GU
 
 ❗ Smart Error Handling – Shows clear messages for invalid operations (e.g., divide-by-zero, invalid subtraction, remainder in Grade 4, etc.).
 
-🌈 Custom Brand Image – Logo at the top for visual personality.
 
-💥 Animations – Light transitions or motion effects enhance the user experience.
 
-💡 Bonus Feature – Includes a creative “something amazing” — a custom GUI touch or interactive element just for fun.
-Mode | Addition | Subtraction | Multiplication | Division
-Grade 4 | Normal | Only if a ≥ b, else error | Normal | Only if divisible evenly, else error
-Grade 5 | Normal | Normal | Normal | Shows result as quotient + remainder (e.g., 8 ÷ 3 → 2 R 2)
-Grade 6 | Normal | Normal | Normal | Result shown as a decimal (4 decimal places, e.g., 8 ÷ 3 → 2.6667)
+
+### 📐 Grade-Specific Math Logic
+
+| Grade   | Addition | Subtraction                          | Multiplication | Division                                                   |
+|---------|----------|---------------------------------------|----------------|-------------------------------------------------------------|
+| Grade 4 | Normal   | Only if `a ≥ b`, else error           | Normal         | Only if divisible evenly, else error                        |
+| Grade 5 | Normal   | Normal                                | Normal         | Shows quotient and remainder (e.g., `8 ÷ 3 → 2 R 2`)        |
+| Grade 6 | Normal   | Normal                                | Normal         | Returns decimal (4 decimal places, e.g., `8 ÷ 3 → 2.6667`)  |
+
